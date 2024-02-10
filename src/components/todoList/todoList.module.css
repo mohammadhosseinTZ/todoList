@@ -1,0 +1,74 @@
+.container{
+    margin: 100px auto;
+    width: 800px;
+    min-height: 500px;
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    padding: 80px 110px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+  
+    
+   
+}
+.add_work{
+    border: 1px solid lightgray;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 15px;
+   
+
+}
+.add_work>input{
+    padding: 6px;
+    cursor: text;
+}
+.add_work>button{
+    background-color: #ffdf41;
+    cursor: pointer;
+    padding: 6px;
+}
+.add_work>button:hover{
+    background-color: white;
+}
+.works{
+    border-left: 4px solid  #ffdf41;
+    padding: 10px;
+    list-style: decimal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+   
+}
+.works>span{
+    font-size: 20px;
+}
+.works>small{
+    
+    color: gray;
+}
+.works>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    align-self: center;
+}
+.works>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.works>div>div>input{
+    padding: 7px;
+}
+.works>div>div>button{
+    background-color: #ffdf41;
+    padding: 7px;
+}
